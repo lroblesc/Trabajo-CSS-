@@ -1,0 +1,213 @@
+
+
+body {
+background-color: #02010a;
+margin: 2px;
+}
+header {
+  width: 100%;
+  overflow: hidden;
+  background: #5b7989;
+
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header .logo {
+  color: white;
+  font-size: 30px;
+  float: left;
+  text-shadow: 2px 0px #02010a;
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  line-height: 50px;
+
+}
+
+header nav {
+  float: right;
+  line-height: 50px;
+  font-size: 20px;
+  word-spacing: 20px;
+  text-align: center;
+
+}
+header nav a {
+text-decoration: none;
+color: white;
+font-family: 'Dancing Script', cursive;
+font-size: 18px;
+}
+
+
+.link:hover {
+  text-decoration: underline;
+  color: white;
+}
+header {
+  border-radius: 10px 10px 0px 0px;
+}
+.contenido_wrapper {
+  width: 100%;
+}
+
+body {
+    position :relative;
+    -webkit-animation: mymove 2s ;
+    animation: mymove 2s ;
+}
+
+@-webkit-keyframes mymove {
+    0%   {top: 1000px;}
+    60%  {top: -20px}
+    100% {top: 0px;}
+}
+
+@keyframes mymove {
+    0%   {top: 1000px;}
+    60%  {top: -20px}
+    100% {top: 0px;}
+}
+
+
+.principal {
+  background-color:#82c3a6;
+  width: 100%;
+  border: 1px;
+display: flex;
+align-items: center;
+
+  justify-content: space-around;
+}
+
+
+.secundarioZD {
+  width: 100%;
+  background-color: #d5c75f;
+  border: 1px;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+
+}
+.macchupicchu {
+  width: 300px;
+  margin: 10px;
+  box-shadow:2px 0px 0px  #02010a;
+}
+
+.izq {
+  width: 300px;
+  margin: 10px;
+  transition: 1.5s;
+  box-shadow:2px 0px 0px  #02010a;
+
+}
+
+
+.izq:hover {
+  -webkit-transform: rotate(10deg);
+  -webkit-border: 2px;
+  box-shadow:2px 0px 0px #82c3a6;
+}
+
+.izquierda {
+  text-align: center;
+
+}
+.der {
+  width: 300px;
+  margin: 10px;
+  transition: 1.5s;
+  box-shadow:2px 0px 0px  #02010a;
+}
+
+.der:hover {
+  -webkit-transform: translate(20px, -5px);
+  -webkit-border: 2px;
+  box-shadow:2px 0px 0px #82c3a6;
+}
+
+.derecha {
+  text-align: center;
+
+}
+.contenedor_general {
+  width: 100%;
+  margin: 0; auto;
+  overflow: hidden;
+}
+@media screen and (max-width: 640px) {
+.conte1 {
+  width: 100%;
+
+}
+.conte2 {
+  width: 100%;
+}
+.conte3 {
+  width: 100%;
+}
+.conte4 {
+  width: 100%;
+}
+.logo {
+  width: 100%;
+}
+nav{
+  width: 100%;
+}
+.macchupicchu .izq .der {
+  width: 100%;
+}
+}
+@media screen and (min-width: 650px) {
+.contenedor_general{
+width: 100%;
+}
+}
+.textopaisaje {
+  font-family: 'Dancing Script', cursive;
+}
+footer {
+  clear: both;
+  width: 100%;
+  background-color:  #C6d5c5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  bottom: 0;
+  border-radius: 0px 0px 10px 10px;
+  font-family: dancing script;
+}
+
+.contacto {
+  font-size: 20px;
+  font-weight: bold;
+}
+.terminos{
+font-size: 20px;
+font-weight: bold;
+}
+
+.redes_sociales {
+  font-size: 20px;
+  font-weight: bold;
+}
+.derechos {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p{
+  font-size: 15px;
+  font-weight: bold;
+}
+li{
+  list-style: none;
+
+}
